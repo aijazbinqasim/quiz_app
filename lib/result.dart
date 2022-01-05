@@ -7,7 +7,7 @@ class Result extends StatelessWidget {
   final int totalScore;
   final void Function() resetQuizHandler;
 
-  String get getTotalScore => 'Your total score is: $totalScore Great !!!';
+  String get getTotalScore => 'Your total score is: $totalScore Great!';
 
   @override
   Widget build(BuildContext context) {
